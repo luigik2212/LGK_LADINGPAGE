@@ -80,7 +80,7 @@
         </div>
       </section>
 
-      <section class="section scroll-section">
+      <section class="section scroll-section section-brand">
         <div class="container">
           <h2 class="section-title">Confiado por quem precisa rodar</h2>
           <p class="section-subtitle">
@@ -96,7 +96,8 @@
         </div>
       </section>
 
-      <section id="como-funciona" class="section scroll-section">
+      <section id="como-funciona" class="section scroll-section section-brand">
+
         <div class="container">
           <h2 class="section-title">Como funciona a LGK Locadora</h2>
           <p class="section-subtitle">
@@ -196,7 +197,8 @@
         </div>
       </section>
 
-      <section id="planos" class="section scroll-section">
+      <section id="planos" class="section scroll-section section-brand">
+
         <div class="container">
           <h2 class="section-title">Planos inteligentes</h2>
           <p class="section-subtitle">Opções flexíveis para viagens, trabalho e uso prolongado.</p>

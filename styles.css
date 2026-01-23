@@ -22,7 +22,7 @@
 body {
   font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
   color: var(--text);
-  background: var(--bg);
+  background: linear-gradient(180deg, #f8fafc 0%, #eef2f7 40%, #f7f8fb 100%);
   line-height: 1.6;
 }
 
@@ -49,6 +49,15 @@ select {
 
 .section {
   padding: 96px 0;
+}
+
+.section-brand {
+  background: linear-gradient(120deg, rgba(11, 31, 59, 0.04), rgba(22, 163, 74, 0.08));
+}
+
+.section-brand .section-title,
+.section-brand .section-subtitle {
+  color: var(--primary);
 }
 
 .section-title {
@@ -191,10 +200,17 @@ select {
   flex-direction: column;
   gap: 16px;
   padding: 20px 0 28px;
+  background: var(--white);
+  border-bottom: 1px solid var(--border);
+  box-shadow: var(--shadow-soft);
+
 }
 
 .hero {
   padding: 120px 0 80px;
+  background: radial-gradient(circle at 15% 20%, rgba(11, 31, 59, 0.08), transparent 45%),
+    radial-gradient(circle at 80% 0%, rgba(22, 163, 74, 0.12), transparent 50%);
+
 }
 
 .hero-grid {
@@ -245,6 +261,10 @@ select {
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   gap: 16px;
   margin-top: 24px;
+}
+
+.logo-strip .logo-card {
+  border-color: rgba(11, 31, 59, 0.15);
 }
 
 .logo-card {
@@ -386,6 +406,8 @@ select {
   padding: 48px;
   display: grid;
   gap: 24px;
+  box-shadow: 0 24px 60px rgba(11, 31, 59, 0.3);
+
 }
 
 .cta form {
