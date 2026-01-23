@@ -97,6 +97,7 @@
       </section>
 
       <section id="como-funciona" class="section scroll-section section-brand">
+
         <div class="container">
           <h2 class="section-title">Como funciona a LGK Locadora</h2>
           <p class="section-subtitle">
@@ -197,6 +198,7 @@
       </section>
 
       <section id="planos" class="section scroll-section section-brand">
+
         <div class="container">
           <h2 class="section-title">Planos inteligentes</h2>
           <p class="section-subtitle">Opções flexíveis para viagens, trabalho e uso prolongado.</p>

@@ -203,12 +203,14 @@ select {
   background: var(--white);
   border-bottom: 1px solid var(--border);
   box-shadow: var(--shadow-soft);
+
 }
 
 .hero {
   padding: 120px 0 80px;
   background: radial-gradient(circle at 15% 20%, rgba(11, 31, 59, 0.08), transparent 45%),
     radial-gradient(circle at 80% 0%, rgba(22, 163, 74, 0.12), transparent 50%);
+
 }
 
 .hero-grid {
@@ -405,6 +407,7 @@ select {
   display: grid;
   gap: 24px;
   box-shadow: 0 24px 60px rgba(11, 31, 59, 0.3);
+
 }
 
 .cta form {
